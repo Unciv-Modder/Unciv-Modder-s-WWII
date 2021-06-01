@@ -529,7 +529,7 @@
 		"resourceType": "Strategic",
 		"revealedBy": "Industrialization II",
 		"terrainsCanBeFoundOn": ["Desert","Tundra","Snow","Jungle","Coast","Ocean"],
-		"production": 1,
+		"production": 5,
 		"improvement": "Pump Jack",
 		"improvementStats": {"production": 3}
 	},
@@ -538,7 +538,7 @@
 		"resourceType": "Strategic",
 		"revealedBy": "Massive Production I",
 		"terrainsCanBeFoundOn": ["Jungle"],
-		"production": 1,
+		"production": 5,
 		"improvement": "Forestry House",
 		"improvementStats": {"production": 3},
 	},
