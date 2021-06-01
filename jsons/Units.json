@@ -460,6 +460,31 @@
 		"uniques": ["[65]% chance to intercept air attacks", "+[50]% Strength vs [Bomber]", "4 tiles in every direction always visible"],
 	},
 
+		/* China */
+	{
+		"name": "Hanyang 88",
+		"unitType": "Melee",
+		"uniqueTo": "China",
+		"requiredTech": "Land Forces",
+		"movement": 1,
+		"strength": 10,
+		"cost": 40,
+		
+		"hurryCostModifier": 6,
+		"uniques": ["Can construct [Trenches]"],
+	},
+	{
+		"name":"Chiang Kai-shek rifle",
+		"unitType": "Melee",
+		"uniqueTo": "China",
+		"requiredTech": "General Mobilization",
+		"movement": 2,
+		"strength": 15,
+		"cost": 72,
+		
+		"hurryCostModifier": 6
+	},
+
 		/* Soviet Union */
 	
 	{
