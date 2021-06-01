@@ -536,7 +536,7 @@
 	{
 		"name": "China",
 		"leaderName": "Chiang Kai-shek",
-		"adjective": ["Chinese",],
+		"adjective": ["Chinese"],
 		"startBias": ["Grassland", "Avoid Hills"],
 		"preferredVictoryType": "Diplomatic",
 		
