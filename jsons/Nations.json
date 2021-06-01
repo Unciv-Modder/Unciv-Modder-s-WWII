@@ -533,6 +533,44 @@
 			"Gallipoli",
 			"Otranto"]
 	},
+	{
+		"name": "China",
+		"leaderName": "Chiang Kai-shek",
+		"adjective": ["Chinese",],
+		"startBias": ["Grassland", "Avoid Hills"],
+		"preferredVictoryType": "Diplomatic",
+		
+		"startIntroPart1": "China is a great Nation",
+		"startIntroPart2": "lmao this is kinda empty sorry",
+		
+		"declaringWar": "In this world, there are two kinds of leaders: The Good, and The Bad. It seems greed has consumed you, and we cannot be so corrupt by the power we hold. May this be a lesson.",
+		"attacked": "You have mistaken our love of peace for weakness. You shall regret this!",
+		"defeated": "Winners look for ways, losers look for excuses.",
+		"introduction": "The people of the United States of America welcome you.",
+		
+		"neutralHello": "Hello!",
+		"hateHello": "Yes?",
+		
+		"tradeRequest": "In this world, we need more peace.",
+		
+		"outerColor": [0,79,205],
+		"innerColor": [255,255,255],
+		
+		"uniqueName": "Art war",
+		"uniques": ["Great General provides double combat bonus", "[Great General] is earned [50]% faster"], 
+		
+		"cities": [
+		"Nanjing",
+		"Beijing",
+		"Shanghai",
+		"Tianjin",
+		"Wuhan",
+		"Fuzhou",
+		"Ningbo",
+		"Suzhou",
+		"Hangzhou"
+		]
+	},
 
 	//City-States
 
@@ -605,23 +643,6 @@
 		"Receive free [City State Settler] when you discover [Pillage I]",
 		"[Great Artist] is earned [50]% faster"],
 		"cities": ["Mecca","Medina","Damascus"],
-	},
-	{
-		"name": "China",
-		"adjective": ["Chinese"],
-		"cityStateType": "Militaristic",
-		"startBias": ["Grassland"],
-	
-		"declaringWar": "You are a seed of evil. You must be destroyed.",
-		"attacked": "You have asked for war and I will give it to you.",
-		"defeated": "I never thought this could happen… not like this.",
-		"outerColor": [12, 46, 156],
-		"innerColor": [242, 19, 19],
-		"uniques": [
-		"Receive free [City State Settler] when you discover [War Stock II]",
-		"Receive free [City State Settler] when you discover [Pillage I]",
-		"+[50]% [Happiness] from every [Palace]"],
-		"cities": ["Xi'an","Beijing","Taiyuan"],
 	},
 	{
 		"name": "Egypt",
