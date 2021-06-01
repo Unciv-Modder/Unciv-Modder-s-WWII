@@ -440,7 +440,36 @@
 		"hurryCostModifier": 20,
 		"uniques": ["Bonus vs Armor 5%"],
 	},
-	
+
+		/* Naval stuff (not very accurate sorry) */
+
+	{
+		"name": "USS Florida",
+		"unitType": "WaterMelee",
+		"uniqueTo": "America",
+		"requiredTech": "Navy",
+		"movement": 3,
+		"strength": 15,
+		"cost": 100,
+		
+		"requiredResource": "Oil",
+		"hurryCostModifier": 2,
+		"uniques": ["Cannot enter ocean tiles"],
+	},
+	{
+		"name": "USS Denver",
+		"unitType": "WaterMelee",
+		"uniqueTo": "America",
+		"requiredTech": "Navy",
+		"movement": 2,
+		"strength": 10,
+		"cost": 50,
+		
+		"requiredResource": "Oil",
+		"hurryCostModifier": 2,
+		"uniques": ["Cannot enter ocean tiles"],
+	},
+
 		/* Soviet Union */
 	
 	{
