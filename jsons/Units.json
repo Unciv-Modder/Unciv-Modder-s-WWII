@@ -441,33 +441,23 @@
 		"uniques": ["Bonus vs Armor 5%"],
 	},
 
-		/* Naval stuff (not very accurate sorry) */
+		/* Aerial stuff (not very accurate sorry) */
 
 	{
-		"name": "USS Florida",
-		"unitType": "WaterMelee",
+		"name": "P-36 Hawk",
+		"unitType": "Fighter",
 		"uniqueTo": "America",
-		"requiredTech": "Navy",
+		"requiredTech": "Air Forces",
 		"movement": 3,
-		"strength": 15,
-		"cost": 100,
+		"strength": 45,
+		"rangedStrength": 45,
+		"range": 4,
+		"interceptRange": 4,
+		"cost": 375,
 		
 		"requiredResource": "Oil",
 		"hurryCostModifier": 2,
-		"uniques": ["Cannot enter ocean tiles"],
-	},
-	{
-		"name": "USS Denver",
-		"unitType": "WaterMelee",
-		"uniqueTo": "America",
-		"requiredTech": "Navy",
-		"movement": 2,
-		"strength": 10,
-		"cost": 50,
-		
-		"requiredResource": "Oil",
-		"hurryCostModifier": 2,
-		"uniques": ["Cannot enter ocean tiles"],
+		"uniques": ["[65]% chance to intercept air attacks", "+[50]% Strength vs [Bomber]", "4 tiles in every direction always visible"],
 	},
 
 		/* Soviet Union */
@@ -3344,6 +3334,24 @@
 		"cost": 900,
 		"hurryCostModifier": 20,
 		"attackSound": "nonmetalhit"
+	},
+		/* Naval Stuff */
+	{
+		"name": "Aurora",
+		"unitType": "WaterRanged",
+		"uniqueTo": "Soviet Union",
+		"requiredTech": "Navy",
+		"obsoleteTech": "King Of The Sea I",
+		//"upgradesTo": "",
+		"movement": 6,
+		"strength": 55,
+		"rangedStrength": 50,
+		"range": 4,
+		"cost": 450,
+		"hurryCostModifier": 20,
+		"attackSound": "nonmetalhit",
+		"promotions": ["Battleship"],
+		"uniques": ["[40]% chance to intercept air attacks"],
 	},
 	
 		/* Germany */
