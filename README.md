@@ -1,3 +1,3 @@
-# Unciv-Modder's WWII
+# Unciv WWII
 ---
-this is my expansion upon Subcher's Unciv-WWII mod
+this is my expansion upon Subcher's Unciv WWII mod
