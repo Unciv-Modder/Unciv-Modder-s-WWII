@@ -537,7 +537,7 @@
 		"name": "China",
 		"leaderName": "Chiang Kai-shek",
 		"adjective": ["Chinese"],
-		"startBias": ["Grassland", "Avoid Hills"],
+		"startBias": ["Grassland", "Avoid [Hills]"],
 		"preferredVictoryType": "Diplomatic",
 		
 		"startIntroPart1": "China is a great Nation",
@@ -556,7 +556,7 @@
 		"outerColor": [0,79,205],
 		"innerColor": [255,255,255],
 		
-		"uniqueName": "Art war",
+		"uniqueName": "Art of War",
 		"uniques": ["Great General provides double combat bonus", "[Great General] is earned [50]% faster"], 
 		
 		"cities": [
